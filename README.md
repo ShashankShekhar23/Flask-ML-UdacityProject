@@ -188,7 +188,7 @@ source ~/.<your-repo-name>/bin/activate
 * To make Prediction, change the line in `make_predict_azure_app.sh` to match the deployed prediction
 `-X POST https://<your-appservice-name>.azurewebsites.net:$PORT/predict`
 ![PredictionAppService](https://user-images.githubusercontent.com/86247520/126907629-24b77722-4e16-4d16-8440-6d2a3a06c1c5.PNG)
-* To check Logs for your running application
+* To check Logs for your running application, browse the URL:
 `https://<your-appservice-name>.scm.azurewebsites.net/api/logs/docker`
 ![FlaskMLAppLog](https://user-images.githubusercontent.com/86247520/126907710-d15e7744-7fe7-4294-b265-c6b06f0ab806.PNG)
 * Go to [Azure DevOps](https://dev.azure.com/) URL and create a new project
