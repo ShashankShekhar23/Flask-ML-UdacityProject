@@ -5,6 +5,8 @@ This is a repo for Udacity Project - Deploy Flask Machine Learning Application o
 
 * Create a Github Repo
 * Clone github repo through Azure Cloud Shell
+
+`git clone <SSH-REPO-LINK>`
 * Create scaffolding for project (if not created)
   * Makefile
   ```
