@@ -293,3 +293,6 @@ NOTE: `azureServiceConnectionId: '<youridhere>'` is your information
 * **Validate and configure** the pipeline
 * The pipeline will build the Azure application. Once all the test pass, it will look like:
 ![FlaskMLAzurePipeline](https://user-images.githubusercontent.com/86247520/126907989-373c746e-92f9-4530-90bd-f46b2713bb7a.PNG)
+
+# Demo #
+You can view the demo here: https://youtu.be/GQUjtsijV4o
