@@ -2,7 +2,10 @@
 This is a repo for Udacity Project - Deploy Flask Machine Learning Application on Azure App Service
 
 # Project Plan #
+Project planning can be done by using Spreadsheets or Trello board. You can refer to these belows for planning your timelines
 
+* Spreadsheet: https://drive.google.com/file/d/1ZDJKNE3lT_DEvigE5KO8i9LNkMKZc3qd/view?usp=sharing
+* Trello board: https://trello.com/b/at4vEEdO/project-management
 
 # Architectural Diagram #
 ![AD_FlaskML](https://user-images.githubusercontent.com/86247520/126956560-cc673511-3561-429f-80d0-a6e8dbe4bc52.PNG)
