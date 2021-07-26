@@ -1,6 +1,12 @@
 # Flask-ML-UdacityProject
 This is a repo for Udacity Project - Deploy Flask Machine Learning Application on Azure App Service
 
+# Project Plan #
+
+
+# Architectural Diagram #
+![AD_FlaskML](https://user-images.githubusercontent.com/86247520/126956560-cc673511-3561-429f-80d0-a6e8dbe4bc52.PNG)
+
 # Steps to run this project #
 
 * Create a Github Repo
