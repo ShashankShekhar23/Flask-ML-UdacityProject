@@ -4,7 +4,7 @@ This is a repo for Udacity Project - Deploy Flask Machine Learning Application o
 # Project Plan #
 Project planning can be done by using Spreadsheets or Trello board. You can refer to these belows for planning your timelines
 
-* Spreadsheet: https://drive.google.com/file/d/1ZDJKNE3lT_DEvigE5KO8i9LNkMKZc3qd/view?usp=sharing
+* Spreadsheet: https://drive.google.com/file/d/138bx_h4mLqmFtlNzRZ0pLNAvT16R3nYr/view?usp=sharing
 * Trello board: https://trello.com/b/at4vEEdO/project-management
 
 # Architectural Diagram #
