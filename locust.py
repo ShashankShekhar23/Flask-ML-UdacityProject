@@ -1,6 +1,6 @@
 from locust import HttpLocust, TaskSet, task
 
-class MyTaskSer(TaskSet):
+class MyTaskSet(TaskSet):
 	@task
 	def get_user_list(self):
 		self.client.get("/api/users")
