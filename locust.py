@@ -1,4 +1,4 @@
-from locust import HttpLocust, TaskSet, task
+from locust import HttpUser, TaskSet, task
 
 class MyTaskSet(TaskSet):
 	@task
@@ -9,6 +9,7 @@ class MyTaskSet(TaskSet):
 	def get_user_list(self):
 		self.client.get("/api/users/2")
 
-class MyLocust(HttpLocust):
+class MyLocust(HttpUser):
 	task_set = MyTaskSet
+
 
