@@ -4,3 +4,4 @@ ls
 git pull
 make all
 az webapp up -n flaskmludacityproject
+https://flaskmludacityproject.azurewebsites.net/
