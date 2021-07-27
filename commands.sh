@@ -5,3 +5,4 @@ git pull
 make all
 az webapp up -n flaskmludacityproject
 https://flaskmludacityproject.azurewebsites.net/
+https://flaskmludacityproject.scm.azurewebsites.net/api/logs/docker
