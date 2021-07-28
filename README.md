@@ -303,7 +303,7 @@ NOTE: `azureServiceConnectionId: '<youridhere>'` is your information
 * The pipeline will build the Azure application. Once all the test pass, it will look like:
 ![FlaskMLAzurePipeline](https://user-images.githubusercontent.com/86247520/126907989-373c746e-92f9-4530-90bd-f46b2713bb7a.PNG)
 
-# LOAD TESTING #
+# Load Testing #
 * Create a file named `locustfile.py` within your repo
 * Install the dependency using pip i.e `pip install locust`
 * Run below command on cmd to start Locust
