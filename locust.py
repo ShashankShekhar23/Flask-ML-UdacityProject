@@ -1,16 +1,13 @@
-from locust import HttpUser, TaskSet, task
+import time
+from locust import HttpUser, task, between
 
-class MyTaskSet(TaskSet):
-	@task
-	def get_user_list(self):
-		self.client.get("/api/users")
+class QuickstartUser(HttpUser):
+    wait_time = between(1, 2.5)
 
-	@task
-	def post_user_list(self):
-		self.client.post("/api/users/2")
+    @task
+    def hello_world(self):
+        self.client.get("/")
 
-class MyLocust(HttpUser):
-	task_set = MyTaskSet
-	min_wait = 5000
-	max_wait = 10000
-	host = "https://flaskmludacityproject.azurewebsites.net"
+    def on_start(self):
+        self.client.post("/predict", json={"username":"foo", "password":"bar"})
+        host = 'https://flaskmludacityproject.azurewebsites.net'
